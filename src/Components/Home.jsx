@@ -24,7 +24,7 @@ function Home() {
           <div className="col-md-1"></div>
         
           <div className="col-md-5">
-            <img className='mt-5' src={profimage} height={'380px'} width={'450px'} style={{borderRadius:'50%'}} alt="" />
+            <img className='mt-5' src={profimage} height={'380px'} width={'400px'} style={{borderRadius:'50%'}} alt="" />
           </div>
        
     
