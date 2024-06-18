@@ -47,7 +47,8 @@ function Projects() {
     <div id='projects'>
       <div className="row w-100">
         <h3 className='text-center '>My <span className='text-primary'>Projects</span></h3>
-        <div className="col-md-12 me-5 flip-card " >
+        <div className="col-md-1"></div>
+        <div className="col-md-10 me-3 flip-card " >
           <div className="row flip-card-inner  "  >
             {projects.map((item, index) => (
               
@@ -56,7 +57,7 @@ function Projects() {
                 <Fade cascade={false} delay={index * 200} direction='up' /* triggerOnce={true} */>
 
 
-                  <Card style={{ width: '25rem' }}>
+                  <Card style={{ width: '23rem' }}>
                     <Card.Img variant="top" src={item.proimage} height={'320px'} width={'580px'} />
                     <Card.Body>
                       <Card.Title >{item.project_name}</Card.Title>
@@ -75,6 +76,8 @@ function Projects() {
           </div>
 
         </div>
+        <div className="col-md-1"></div>
+
       </div>
    
     </div>

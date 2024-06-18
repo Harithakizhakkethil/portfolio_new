@@ -8,7 +8,7 @@ function Home() {
    <section id='about'>
       <Fade direction='down'>
       <div className='container w-100'>
-        <div className=' row m-5 pt-5'>
+        <div className=' row  pt-5'>
        
           <div className="col-md-1"></div>
          

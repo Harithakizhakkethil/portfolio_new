@@ -28,7 +28,7 @@ function Header() {
     <div>
       <Navbar expand="lg" style={{fontStyle:'italic',zIndex:'1'}} className=' px-5 py-4 position-fixed w-100 top-0'  >
         <Container>
-          <Navbar.Brand  href="#home" /* className='fs-4  ' */ className={`${show && 'nav-black'} nav fs-4`}  style={{color:'white'}}> <FontAwesomeIcon className='me-3' icon={faUserTie} />PORTFOLIO</Navbar.Brand>
+          <Navbar.Brand  href="#home"  className={`${show && 'nav-black'} nav fs-4`}  style={{color:'white'}}> <FontAwesomeIcon className='me-3' icon={faUserTie} />PORTFOLIO</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"  />
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ms-auto " >
